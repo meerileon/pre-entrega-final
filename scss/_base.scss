@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Merriweather', serif;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+body {
+    background-color: #F2E2C4;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+header {
+    background-color: #010440;
+    padding:5vh;
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    
+    
+    li {
+        list-style: none;
+    font-weight: 100;
+    padding-top: 30px;
+    display: inline-block;
+
+    a {
+        text-decoration:none;
+        color: white;
+
+        &:hover {
+            text-decoration: none;
+    color: #F21D1D;
+}
+        }
+    }
+}
+
+
+#logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F21D1D;
+    margin: 25px;
+}
+
+
+footer{
+        background-color: #F21D1D;
+        line-height: 150%;
+        font-size: 15px;
+        padding: 5vh;
+        display: grid;
+        grid-template-areas: 
+            "menu rs"
+            "logo fp";
+        grid-template-columns: 50vw 40vw;
+        grid-template-rows: auto;
+        
+
+        .menuFooter{
+            font-size: 13px;
+            grid-area: menu;
+
+            li {
+                list-style: none;
+                display:inline-block;
+            }
+
+            a {
+                text-decoration: none;
+                color: azure;
+            }
+
+            &hover {
+                color:#010440;
+            }
+        }
+    
+        .footerPrincipal {
+        grid-area: fp;
+        text-align: end;
+             }
+    
+        .logoFooter {
+        grid-area: logo;
+        color: #010440;
+        font-size: 40px;
+        font-weight: 800;
+        margin: 25px 0px 15px 50px;}
+    
+        .rrssFooter {
+        grid-area: rs;
+        text-align: end;   }
+    
+    
+}

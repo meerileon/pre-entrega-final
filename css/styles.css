@@ -1,0 +1,641 @@
+@media (min-width: 351px) and (max-width: 516px) {
+  .hero {
+    background-size: cover;
+    max-width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-bottom: 20px;
+    padding: 40px 10px 10px 10px; }
+  header {
+    background-color: #010440;
+    padding: 5vh;
+    position: absolute;
+    width: 100%; }
+  .primerLinea {
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    line-height: 30px; }
+  div.primerLinea img {
+    width: 75%; }
+  h3 {
+    padding-left: 0px; }
+  .segundaLinea {
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    line-height: 30px; }
+  div.segundaLinea img {
+    width: 75%; }
+  div article.derecha {
+    text-align: center;
+    list-style: none; } }
+
+@media (min-width: 517px) and (max-width: 980px) {
+  main div.paraVP {
+    margin-right: 12%; }
+  div.segundaLinea img {
+    width: 25%;
+    height: 25%; }
+  div.segundaLinea ul {
+    list-style-type: none; } }
+
+@media (min-width: 351px) and (max-width: 516px) {
+  header {
+    background-color: #010440;
+    height: 1rem;
+    width: 100%; }
+    header header nav {
+      visibility: hidden; }
+    header .gridViajes {
+      display: flex;
+      flex-direction: column;
+      column-gap: 30px; }
+    header footer {
+      display: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px; } }
+
+@media (min-width: 516px) and (max-width: 1980px) {
+  div .dropdown {
+    visibility: hidden; } }
+
+main .preForm {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 100px;
+  grid-template-areas: "spa spa img"
+ "eng eng img";
+  justify-content: space-between; }
+  main .preForm .destacado {
+    color: black;
+    font-size: 50px;
+    grid-area: spa;
+    margin-left: 50px; }
+    main .preForm .destacado--2 {
+      font-style: italic;
+      grid-area: eng; }
+  main .preForm .formImg {
+    grid-area: img;
+    width: 80%;
+    justify-content: start; }
+
+.inscripcion {
+  background-color: #caa775;
+  width: max-content;
+  margin: 20px;
+  padding: 20px;
+  line-height: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .inscripcion fieldset {
+    font-weight: 1000;
+    padding: 10px; }
+    .inscripcion fieldset label {
+      font-style: italic; }
+
+.hero, .hero--ClasesRegulares, .hero--Viajes, .hero--ClasesEspeciales, .hero--Contacto, .hero--Inscripcion {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  margin-bottom: 50px; }
+
+.hero {
+  background-image: url(/imgs/banner-principal.jpg); }
+  .hero--ClasesRegulares {
+    background-image: url(/imgs/clases-especiales.jpg); }
+  .hero--Viajes {
+    background-image: url(/imgs/viajes.jpg); }
+  .hero--ClasesEspeciales {
+    background-image: url(/imgs/clases-online.jpg); }
+  .hero--Contacto {
+    background-image: url(/imgs/contact.jpg); }
+  .hero--Inscripcion {
+    background-image: url(/imgs/welcome.jpg); }
+  .hero h2 {
+    font-size: 40px;
+    color: azure;
+    padding: 300px 0px 20px 50px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif; }
+  * a {
+    text-decoration: none; }
+
+body {
+  background-color: #F2E2C4;
+  color: black;
+  font-family: 'Trebuchet MS'; }
+
+header {
+  background-color: #010440;
+  padding: 5vh;
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+  z-index: 1;
+  display: flex;
+  flex-direction: row; }
+  header li {
+    list-style: none;
+    font-weight: 100;
+    padding-top: 30px;
+    display: inline-block; }
+    header li a {
+      text-decoration: none;
+      color: white; }
+      header li a:hover {
+        text-decoration: none;
+        color: #F21D1D; }
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F21D1D;
+  margin: 25px; }
+
+footer {
+  background-color: #F21D1D;
+  line-height: 150%;
+  font-size: 15px;
+  padding: 5vh;
+  display: grid;
+  grid-template-areas: "menu rs"
+ "logo fp";
+  grid-template-columns: 50vw 40vw;
+  grid-template-rows: auto; }
+  footer .menuFooter {
+    font-size: 13px;
+    grid-area: menu; }
+    footer .menuFooter li {
+      list-style: none;
+      display: inline-block; }
+    footer .menuFooter a {
+      text-decoration: none;
+      color: azure; }
+    footer .menuFooterhover {
+      color: #010440; }
+  footer .footerPrincipal {
+    grid-area: fp;
+    text-align: end; }
+  footer .logoFooter {
+    grid-area: logo;
+    color: #010440;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 25px 0px 15px 50px; }
+  footer .rrssFooter {
+    grid-area: rs;
+    text-align: end; }
+
+p {
+  line-height: 25px; }
+
+body {
+  background-color: #F2E2C4;
+  color: black;
+  font-family: 'Trebuchet MS'; }
+
+.infoContact {
+  padding-left: 0px; }
+
+h3 {
+  padding-left: 50px; }
+
+div article.derecha {
+  text-align: right;
+  list-style: none; }
+
+h4.botonCTA {
+  width: 100px;
+  height: 40px;
+  padding-left: 50px;
+  background-color: #010440;
+  margin-left: 50px; }
+
+footer {
+  background-color: #F21D1D;
+  line-height: 150%;
+  font-size: 15px;
+  padding: 5vh;
+  display: grid;
+  grid-template-areas: "menu rs"
+ "logo fp";
+  grid-template-columns: 50vw 40vw;
+  grid-template-rows: auto; }
+
+.menuFooter {
+  list-style: none;
+  font-size: 13px;
+  grid-area: menu; }
+
+.footerPrincipal {
+  grid-area: fp;
+  text-align: end; }
+
+.logoFooter {
+  grid-area: logo;
+  color: #010440;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 25px 0px 15px 50px; }
+
+.rrssFooter {
+  grid-area: rs;
+  text-align: end; }
+
+.menuFooter a:hover {
+  color: #010440; }
+
+img {
+  border-radius: 5%; }
+
+.banner {
+  border-radius: 0%;
+  width: 70%; }
+
+table th {
+  background-color: #ff9494; }
+
+table td {
+  background-color: #81c1e6;
+  text-align: center; }
+
+h4 {
+  font-size: 30px;
+  letter-spacing: 5px; }
+
+.videos {
+  background-image: linear-gradient(#b38136, #F2E2C4);
+  padding: 50px;
+  margin-bottom: 25px; }
+
+ul li {
+  list-style: disc;
+  padding-left: 20px;
+  font-weight: 700; }
+
+/*.kids {
+    background-color: rgb(248, 139, 120);
+    height: 600x;
+    width: 400px;
+    margin-left: 30px;
+    padding: 5%;
+
+}
+
+.teens {
+    background-color: #575ba8; 
+    height: 600x;
+    width: 400px;
+    margin-left: 30px;
+    padding: 5%;
+
+}
+
+.adults {
+    background-color: rgb(248, 139, 120); 
+    height: 600x;
+    width: 400px;
+    margin-left: 30px;
+    padding: 5%;
+    
+}
+}*/
+.apartado {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center; }
+
+.calendario {
+  display: flex;
+  justify-content: center; }
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px; }
+
+.botonSolitario {
+  margin: 15px auto 15px auto;
+  height: 50px;
+  width: 250px;
+  background-color: #F21D1D;
+  text-align: center;
+  border-radius: 10%; }
+
+.botonSolitario:hover {
+  background-color: #010440; }
+
+.botonSolitario a {
+  padding: 15px 15px 15px 15px; }
+
+.botonSolitario a:hover {
+  color: #feffff; }
+
+.primerLinea {
+  margin: 10px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.segundaLinea {
+  margin: 20px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse; }
+
+.infoClaseEsp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center; }
+
+.flexCursosRegulares {
+  margin: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+/*.Cards {
+    width: 260px;
+    height: auto;
+    transition: width 2s;
+    
+}
+
+.Cards:hover {
+    width:300px;
+    
+}
+
+.kids {
+    background-color: rgb(248, 139, 120);
+    height: 600x;
+    padding: 5%;
+    
+
+}
+
+.teens {
+    background-color: #575ba8; 
+    height: 600x;
+    margin-left: 30px;
+    padding: 5%;
+
+}
+
+.adults {
+    background-color: rgb(248, 139, 120); 
+    height: 600x;
+    margin-left: 30px;
+    padding: 5%;
+    
+
+*/
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr auto 2fr;
+  grid-template-rows: auto 1fr 1fr 1fr; }
+
+.titulo {
+  background-color: #f88b78;
+  padding: 5px;
+  padding-left: 10px; }
+
+.cursoDisenio {
+  padding: 10px;
+  background-color: #81c1e6;
+  margin: 2px 0px 1px 0px;
+  transition: background-color 2s; }
+
+.cursoDisenio:hover {
+  background-color: #cee5f1; }
+
+.cursoBusiness {
+  padding: 10px;
+  background-color: #81c1e6;
+  margin: 1px 0px 1px 0px;
+  transition: background-color 2s; }
+
+.cursoBusiness:hover {
+  background-color: #cee5f1; }
+
+.cursoGrammar {
+  padding: 10px;
+  background-color: #81c1e6;
+  margin: 1px 0px 1px 0px;
+  transition: background-color 2s; }
+
+.cursoGrammar:hover {
+  background-color: #cee5f1; }
+
+.gridViajes {
+  display: grid;
+  grid-template-areas: "mdv mdv mdv videos"
+ "acc acc acc videos"
+ "dv dv dv dv";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 2px;
+  margin-top: 100px;
+  position: inherit; }
+
+.gridViajes img {
+  transition: width height 4s; }
+
+.gridViajes img:hover {
+  width: 150%;
+  height: 150%; }
+
+.menuDeViajes {
+  grid-area: mdv;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: 30px;
+  margin-left: -70px;
+  gap: 50px; }
+
+#accordionFlushExample {
+  grid-area: acc;
+  z-index: -1; }
+
+section.videos {
+  grid-area: videos; }
+
+.detalleViajes {
+  grid-area: dv;
+  margin-left: 20px; }
+
+.cardViajes {
+  width: 200px;
+  height: 200px; }
+
+/*Media queries*/
+@media (min-width: 351px) and (max-width: 516px) {
+  div.hero {
+    background-image: url(./imgs/banner-principal.jpg);
+    background-size: cover;
+    max-width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-bottom: 20px;
+    padding: 40px 10px 10px 10px; }
+  header {
+    background-color: #010440;
+    padding: 5vh;
+    position: absolute;
+    width: 100%; }
+  .primerLinea {
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    line-height: 30px; }
+  div.primerLinea img {
+    width: 75%; }
+  h3 {
+    padding-left: 0px; }
+  .segundaLinea {
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    line-height: 30px; }
+  div.segundaLinea img {
+    width: 75%; }
+  div article.derecha {
+    text-align: center;
+    list-style: none; } }
+
+@media (min-width: 517px) and (max-width: 980px) {
+  main div.paraVP {
+    margin-right: 12%; }
+  div.segundaLinea img {
+    width: 25%;
+    height: 25%; }
+  div.segundaLinea ul {
+    list-style-type: none; } }
+
+.gradient {
+  background-image: linear-gradient(#f8b333, #F2E2C4); }
+
+.primerLinea {
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+.segundaLinea {
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*GridContacto*/
+.infoContact {
+  grid-area: info; }
+
+form {
+  grid-area: form;
+  margin: 20px; }
+
+.maps {
+  grid-area: maps;
+  margin-right: 20px; }
+
+.gridContact {
+  display: grid;
+  grid-template-areas: "form form info"
+ "form form maps"
+ "form form maps";
+  grid-template-columns: 40% 10%;
+  grid-template-rows: 20% 20%;
+  grid-column-gap: 20px; }
+
+/*Flip card*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; }
+
+.flip-card-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); }
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5%; }
+
+.flip-card-front {
+  color: rgba(0, 0, 0, 0); }
+
+.flip-card-back {
+  background-color: #010440;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 5%; }
+
+/* Bootstrap */
+.d-block w-100 {
+  width: 10vw;
+  height: 10vh; }
+
+.card-body {
+  border: none; }
+
+.flexCursosRegulares {
+  margin: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  gap: 50px; }
+
+/*Media Query MOBILE - VIAJES*/
+@media (min-width: 351px) and (max-width: 516px) {
+  header {
+    background-color: #010440;
+    height: 20%;
+    width: 100%; }
+  header nav {
+    visibility: hidden; }
+  .gridViajes {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px; }
+  footer {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; } }

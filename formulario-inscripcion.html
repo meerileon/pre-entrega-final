@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<title>Formulario de Información</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p id="logo">Go!English</p>
+        </div>
+        <nav>
+            <ul class="menuPrincipal">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="clasesregulares.html">CLASES REGULARES</a></li>
+                <li><a href="clasesespeciales.html">CLASES ESPECIALES</a></li>
+                <li><a href="viajes.html">VIAJES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero hero--Inscripcion">
+            <h2 class="bannerPrincipal">INSCRIPCIONES</h>
+        </div>
+
+        <div class="preForm">
+            <h2 class="destacado">
+                Sé parte de esta comunidad!
+            </h2>
+
+            <h2 class="destacado destacado--2">
+                Be part of this community!
+            </h2>
+
+            <img src="imgs/community.jpg" alt="group" class="formImg">
+        </div>
+        <h3>Completa el siguiente formulario y nos estaremos comunicando con vos a la brevedad.</h3>
+        <form class="inscripcion">
+            <p>INSCRIPCIÓN</p>
+            <fieldset>
+                <legend>Datos del estudiante</legend>
+                <label for="nombre_apellido">Nombre y apellido</label>
+                <input type="text">
+                <label for="sexo">Sexo</label>
+                <span>Mujer</span> <input type="radio" name="Sexo" value="Mujer">
+                <span>Hombre</span> <input type="radio" name="Sexo" value="Hombre">
+                <label for="edad">Edad</label>
+                <input type="text">
+                <label for="email">Email</label>
+                <input type="text">
+                <label for="telefono">Teléfono</label>
+                <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Curso de interés</legend>
+                <label for="CURSO">CURSO</label>
+                <select name="CURSO" id="">
+                    <option value="kids">KIDS</Option>
+                    <option value="teen-1">TEENS - BEGINNERS</Option>
+                    <option value="teen-2">TEENS - INTERMEDIATE</option>
+                    <option value="teen-3">TEENS - ADVANCED</option>
+                    <option value="general-1">GENERAL - BEGINNERS </option>
+                    <option value="general-2">GENERAL - INTERMEDIATE</option>
+                    <option value="general-3">GENERAL - ADVANCED</option>
+                    <option value="especial-1">INGLÉS PARA DISEÑADORES</option>
+                    <option value="especial-2">INGLÉS PARA NEGOCIOS</option>
+                    <option value="especial-3">TALLER DE GRAMÁTICA</option>
+
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentarios</legend>
+                <label for="comentarios">¿Qué querés saber?</label>
+                <br>
+                <textarea name="comentarios" id="" cols="30" rows="10">Escribe aquí</textarea>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="footerPrincipal">
+            <h5>CONTACT US!</h5>
+            <p>mail@mail.com</p>
+            <p>+54 11 1234 5678</p>
+        </div>
+
+        <div class="logoFooter">
+            <p>Go!English</p>
+        </div>
+
+        <div class="rrssFooter">
+            <a href="http://www.facebook.com"><img src="imgs/facebook.png" alt="facebook" width="3%"></a>
+            <a href="http://www.instagram.com"><img src="imgs/instagram.png" alt="instagram" width="3%"></a>
+            <a href="contacto.html"><img src="imgs/email.png" alt="email" width="3%"></a>
+        </div>
+
+        <nav>
+            <ul class="menuFooter">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="clasesregulares.html">CLASES REGULARES</a></li>
+                <li><a href="clasesespeciales.html">CLASES ESPECIALES</a></li>
+                <li><a href="viajes.html">VIAJES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
