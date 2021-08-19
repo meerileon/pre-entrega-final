@@ -108,17 +108,17 @@ main .preForm {
   margin-bottom: 50px; }
 
 .hero {
-  background-image: url(./imgs/banner-principal.jpg); }
+  background-image: url(../imgs/banner-principal.jpg); }
   .hero--ClasesRegulares {
-    background-image: url(/imgs/clases-especiales.jpg); }
+    background-image: url(../imgs/clases-especiales.jpg); }
   .hero--Viajes {
-    background-image: url(/imgs/viajes.jpg); }
+    background-image: url(../imgs/viajes.jpg); }
   .hero--ClasesEspeciales {
-    background-image: url(/imgs/clases-online.jpg); }
+    background-image: url(../imgs/clases-online.jpg); }
   .hero--Contacto {
-    background-image: url(/imgs/contact.jpg); }
+    background-image: url(../imgs/contact.jpg); }
   .hero--Inscripcion {
-    background-image: url(/imgs/welcome.jpg); }
+    background-image: url(../imgs/welcome.jpg); }
   .hero h2 {
     font-size: 40px;
     color: azure;
