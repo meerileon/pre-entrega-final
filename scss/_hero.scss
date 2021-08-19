@@ -10,6 +10,8 @@
     background-image: url(/imgs/banner-principal.jpg);
     @extend %hero;
 
+    
+
     &--ClasesRegulares {
         background-image: url(/imgs/clases-especiales.jpg);
             @extend %hero;
