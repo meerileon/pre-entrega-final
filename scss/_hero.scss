@@ -7,32 +7,32 @@
     }
 
 .hero {
-    background-image: url(/imgs/banner-principal.jpg);
+    background-image: url(./imgs/banner-principal.jpg);
     @extend %hero;
 
     
 
     &--ClasesRegulares {
-        background-image: url(/imgs/clases-especiales.jpg);
+        background-image: url(./imgs/clases-especiales.jpg);
             @extend %hero;
         }
 
     &--Viajes {
-        background-image: url(/imgs/viajes.jpg);
+        background-image: url(./imgs/viajes.jpg);
         @extend %hero;
     }
         
 
     &--ClasesEspeciales {
-    background-image: url(/imgs/clases-online.jpg);
+    background-image: url(./imgs/clases-online.jpg);
         @extend %hero;}
 
     &--Contacto {
-    background-image: url(/imgs/contact.jpg);
+    background-image: url(./imgs/contact.jpg);
     @extend %hero;}
 
     &--Inscripcion {
-    background-image: url(/imgs/welcome.jpg);
+    background-image: url(./imgs/welcome.jpg);
     @extend %hero;
 }
 
